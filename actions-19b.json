@@ -1,0 +1,331 @@
+{
+  "passed": 65,
+  "total": 65,
+  "results": [
+    {
+      "check": "Access Panel offers seven account pathways and no Administrator card",
+      "pass": true,
+      "detail": "slugs=['adult', 'junior', 'parents', 'schools', 'studio', 'teachers', 'tutors']"
+    },
+    {
+      "check": "No Administration wording on the public Access Panel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: panel present with its endpoint chip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: disabled until every value is supplied",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: HTTP 200 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: HTTP 401 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: HTTP 403 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: HTTP 402 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: HTTP 422 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Parent link confirmation: HTTP 500 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: panel present with its endpoint chip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: disabled until every value is supplied",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: HTTP 200 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: HTTP 401 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: HTTP 403 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: HTTP 402 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: HTTP 422 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "School parent-link approval: HTTP 500 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: panel present with its endpoint chip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: disabled until every value is supplied",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: HTTP 201 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: HTTP 401 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: HTTP 403 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: HTTP 402 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: HTTP 422 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Learner live-session response: HTTP 500 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Platform engine refresh: panel present with its endpoint chip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Platform engine refresh: HTTP 200 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Platform engine refresh: HTTP 401 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Platform engine refresh: HTTP 403 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Platform engine refresh: HTTP 402 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Platform engine refresh: HTTP 422 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Platform engine refresh: HTTP 500 renders the server outcome",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Organisation-scoped panels report PARAMETER REQUIRED without a School context",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No organisation-scoped request is sent without a real organisation id",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /overview: an ordinary role sees the refusal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /overview: no privileged payload in the DOM",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /users: an ordinary role sees the refusal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /users: no privileged payload in the DOM",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /content: an ordinary role sees the refusal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /content: no privileged payload in the DOM",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /tutors: an ordinary role sees the refusal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /tutors: no privileged payload in the DOM",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /certificates: an ordinary role sees the refusal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /certificates: no privileged payload in the DOM",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /ai: an ordinary role sees the refusal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /ai: no privileged payload in the DOM",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /overview: an administrator sees the records",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /users: an administrator sees the records",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /content: an administrator sees the records",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /tutors: an administrator sees the records",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /certificates: an administrator sees the records",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /ai: an administrator sees the records",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /ai: the system prompt text is not rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Administration /ai: the evaluation result is rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Pip tucked at 900px: zero important controls covered",
+      "pass": true,
+      "detail": "covered=0"
+    },
+    {
+      "check": "Pip tucked at 900px: zero horizontal overflow",
+      "pass": true,
+      "detail": "overflow=0px"
+    },
+    {
+      "check": "Pip tucked at 900px: visible affordance with vertical extent",
+      "pass": true,
+      "detail": "16x72px on the right edge, mascot=True"
+    },
+    {
+      "check": "Pip tucked at 900px: one tap restores the full launcher",
+      "pass": true,
+      "detail": "16px handle -> 167x66px launcher"
+    },
+    {
+      "check": "Pip tucked at 390px: zero important controls covered",
+      "pass": true,
+      "detail": "covered=0"
+    },
+    {
+      "check": "Pip tucked at 390px: zero horizontal overflow",
+      "pass": true,
+      "detail": "overflow=0px"
+    },
+    {
+      "check": "Pip tucked at 390px: visible affordance with vertical extent",
+      "pass": true,
+      "detail": "16x64px on the right edge, mascot=True"
+    },
+    {
+      "check": "Pip tucked at 390px: one tap restores the full launcher",
+      "pass": true,
+      "detail": "16px handle -> 60x60px launcher"
+    },
+    {
+      "check": "Studio AI Governance makes no Administrator-only request",
+      "pass": true,
+      "detail": "5 api calls"
+    },
+    {
+      "check": "Studio AI Governance still names what is governed elsewhere",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

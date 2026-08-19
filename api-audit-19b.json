@@ -1,0 +1,4508 @@
+{
+  "backend_routes": 266,
+  "layers": {
+    "A": {
+      "title": "Visible API chips",
+      "declared": 87,
+      "unmatched": 0,
+      "rows": [
+        {
+          "method": "POST",
+          "path": "/api/activities/:lessonId/submissions",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/assignments",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/resources",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/certificates",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/content",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/stats",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutor-applications",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutors",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/users",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/grade-writing",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/assessment/level-check",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/level-check/score",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/placement/calibrate",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/pronunciation",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/child-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/auth/pathways",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/register",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/parents.ts",
+            "lib/apps/teachers.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-login",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/live-sessions/:id/responses",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/payouts",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/status",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/plans",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts",
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/subscription",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/parents.ts",
+            "lib/apps/schools.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/certificates/eligibility/:level",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/compliance/privacy-export",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-catalog",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-summary",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/discovery/catalogue",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/mastery",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/next",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/engine/refresh",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/review-queue",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/schedule",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/gamification/leaderboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/gamification/profile",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/integrations/status",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/lesson-support/language-context",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/lesson-support/lessons/:id/engine-15",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/lesson-support/lessons/:id/image-briefs",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/partners/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/feedback-banks",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/filters",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/next",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/reports/schools/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/progress",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/junior.ts",
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/progress/lesson",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/starfall-splashlearn/audio-scripts/:lessonId",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/review/attempts",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/review/due",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/junior.ts",
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/roster/organizations/:id/connections",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/admin/overview",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/assignments/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts",
+            "lib/apps/teachers.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/:id/assignments",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/:id/bulk-import",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts",
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id/export",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id/report",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/organizations/:id/export",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations/:id/parent-links/approve",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/parent/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/parent/links",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/parent/links/confirm",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/ai/governance",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/studio/coursebook/projects/:id/uploads/pdf",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/projects/:projectId/generations",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/projects/:projectId/uploads",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/sequence/default",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/chat",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/chat/stream",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/lesson-player/spec.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/conversations",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/quota",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/application",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/availability",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/background",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/identity",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/bookings",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/junior.ts",
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/tutors",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/ielps-data.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/tutors/:id/availability",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "title": "Canonical Next adapters",
+      "declared": 130,
+      "unmatched": 0,
+      "rows": [
+        {
+          "method": "POST",
+          "path": "/api/activities/:lessonId/submissions",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/activities/submissions/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/assignments",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/addons/starpath/assignments",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/meta",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/resources",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/saved",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/skills",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/standards",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/certificates",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/content",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/admin/content",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/content/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/stats",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutor-applications",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutor-applications/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/admin/tutor-applications/:id/decision",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutors",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/admin/tutors",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/users",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/admin/users/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/agent/chat",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/agent/config",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/agent/voice",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/assessment/checkpoint/${encodeURIComponent(level)}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/grade-writing",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/assessment/level-check",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/level-check/score",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/placement/calibrate",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/pronunciation",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/child-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/login",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/logout",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/auth/me",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/auth/pathways",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/register",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-login",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/live-sessions",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/live-sessions/:id/report",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/live-sessions/:id/responses",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/projects/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects/:id/publish",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects/:id/validate",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/billing/checkout",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/payouts",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/status",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/plans",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/billing/portal",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/subscription",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/certificates/${encodeURIComponent(level)}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/certificates/eligibility/${encodeURIComponent(level)}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/certificates/verify/${encodeURIComponent(code)}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-catalog",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-summary",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/lessons/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/discovery/catalogue",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/discovery/events",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/discovery/practice",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/mastery",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/next",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/engine/refresh",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/schedule",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/lesson-support/contracts",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/lesson-support/language-context",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/lesson-support/lessons/:id/engine-15",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/lesson-support/lessons/:id/image-briefs",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/partners/attribute",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/partners/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/partners/links",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/partners/track/:code",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/partners/withdrawals",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/catalog${query ? `?${query}",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/filters",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/practice/grade",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/next${query ? `?${query}",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/reports/classes/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/reports/schools/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/reports/self",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/progress",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/progress/lesson",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/progress/time",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/starfall-splashlearn/lessons/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/review/attempts",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/review/due",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/review/saved-phrase",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/review/stats",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/admin/overview",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/assignments/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/:id/assignments",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/:id/bulk-import",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id/export",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id/report",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/live-sessions/:id/participation",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations/:id/parent-links/approve",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/parent/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/parent/links",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/parent/links/confirm",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/ai/governance",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/projects/:id/generations",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/projects/:id/uploads",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/sequence/default",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/activate",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/evaluate",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/chat",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/conversations",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/conversations",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/quota",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/voice",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/application",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/bookings",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings/:id/cancel",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/bookings/:id/cancellation-policy",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings/:id/end",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings/:id/join",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/bookings/:id/notes",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings/:id/notes",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings/:id/room",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/time-requests",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/time-requests",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/tutors",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/tutors/:id/availability",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/adapters.ts"
+          ]
+        }
+      ]
+    },
+    "C": {
+      "title": "Direct useEilps / fetch calls",
+      "declared": 6,
+      "unmatched": 0,
+      "rows": [
+        {
+          "method": "*",
+          "path": "/api/auth/me",
+          "verdict": "MATCHED",
+          "sources": [
+            "components/pip/pip-mount.tsx"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/auth/pathways",
+          "verdict": "MATCHED",
+          "sources": [
+            "components/pathways-section.tsx"
+          ]
+        },
+        {
+          "method": "*",
+          "path": "/api/auth/refresh",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/eilps-http.ts"
+          ]
+        },
+        {
+          "method": "*",
+          "path": "/api/curriculum/deep-catalog",
+          "verdict": "MATCHED",
+          "sources": [
+            "components/level-band.tsx"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-catalog",
+          "verdict": "MATCHED",
+          "sources": [
+            "components/lesson-player/lesson-player.tsx"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/admin/overview",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/use-school-context.ts"
+          ]
+        }
+      ]
+    },
+    "D": {
+      "title": "Mini-app endpoint inventories",
+      "declared": 80,
+      "unmatched": 0,
+      "rows": [
+        {
+          "method": "POST",
+          "path": "/api/addons/starpath/assignments",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/resources",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/certificates",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/content",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/admin/content",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/content/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "PUT",
+          "path": "/api/admin/content/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "DELETE",
+          "path": "/api/admin/content/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/stats",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutor-applications",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutor-applications/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/admin/tutor-applications/:id/decision",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/tutors",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/admin/tutors",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "PUT",
+          "path": "/api/admin/tutors/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "DELETE",
+          "path": "/api/admin/tutors/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/admin/users",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/admin/users/:id",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/level-check/score",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/child-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/register",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/parents.ts",
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-login",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/live-sessions/:id/responses",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects/:id/publish",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects/:id/validate",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/payouts",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/status",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/plans",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts",
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/subscription",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/parents.ts",
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom/sessions",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/compliance/privacy-export",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-summary",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/discovery/catalogue",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/mastery",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/next",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/engine/refresh",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/schedule",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/gamification/leaderboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/gamification/profile",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/integrations/status",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/partners/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/next",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/reports/schools/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/progress",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/junior.ts",
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/progress/lesson",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/review/due",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/junior.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/admin/overview",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts",
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/:id/assignments",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/:id/bulk-import",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts",
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id/export",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/:id/report",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/teachers.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/organizations/:id/export",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations/:id/parent-links/approve",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/schools.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/parent/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/parent/links",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/parent/links/confirm",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/parents.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/ai/governance",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/studio/coursebook/projects/:projectId/generations",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/studio/coursebook/projects/:projectId/uploads/pdf",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/sequence/default",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/studio.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/activate",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/evaluate",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "lib/apps/admin.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/conversations",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/quota",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/availability",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/background",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/identity",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/submit",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/bookings",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts",
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/safeguarding-policy",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/tutors.ts"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/tutors",
+          "verdict": "MATCHED",
+          "sources": [
+            "lib/apps/adult.ts"
+          ]
+        }
+      ]
+    },
+    "E": {
+      "title": "Legacy frontend/src/api.js",
+      "declared": 189,
+      "unmatched": 0,
+      "rows": [
+        {
+          "method": "POST",
+          "path": "/api/activities/${lessonId}/submissions",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/activities/moderation/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/activities/moderation?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/activities/submissions/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/addons/starpath/assignments",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/assignments?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/meta",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/addons/starpath/resources/${id}/save",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "DELETE",
+          "path": "/api/addons/starpath/resources/${id}/save",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/resources?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/saved",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/skills?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/addons/starpath/standards?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/agent/chat",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/agent/config?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/agent/voice",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/assessment/checkpoint/${level}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/assessment/deep-checkpoints",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/grade-writing",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/assessment/level-check",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/level-check/score",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/assessment/placement/calibrate",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/child-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/email-verification/confirm",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/email-verification/request",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/login",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/logout",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/auth/me",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/auth/me",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/password-reset/confirm",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/password-reset/request",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/auth/pathways",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/register",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-login",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/auth/student-profiles",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/live-sessions",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/live-sessions/${id}/report",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/authoring/projects/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects/${id}/blocks",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects/${id}/publish",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/authoring/projects/${id}/validate",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/billing/checkout",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/billing/connect/onboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/payouts",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/connect/status",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/plans",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/billing/portal",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/billing/subscription",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/certificates/eligibility/${level}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/certificates/verify/${code}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom/sessions",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom/sessions/${sessionId}/events",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom/sessions/${sessionId}/review",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom/sessions/${sessionId}/saved-words",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom/sessions/${sessionId}/token",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/compliance/privacy-export",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/compliance/safety-reports",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/alignment-layer",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/commercial-syllabus/${level}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-catalog?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-lessons/${id}?",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/deep-summary",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/expanded-modules/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/lessons/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/curriculum/sample-unit-modules",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/engine/attempts",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/mastery",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/next",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/path",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/review-queue?limit=${limit}",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/engine/schedule",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/gamification/leaderboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/gamification/profile",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/gamification/rewards/${rewardId}/activate",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/gamification/rewards/${rewardId}/claim",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/integrations/status",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/partners/attribute",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/partners/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/partners/fraud-reviews",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/partners/links",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/partners/track/${code}?",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/partners/withdrawals",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/accessibility",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/age-bands",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/audit",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/audit/${level}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/feedback-banks",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/lesson/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/placement",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/readiness",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/pedagogy/rubrics",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/catalog?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/filters",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/practice/grade",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/hybrid/playbook/${itemId}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/practice/hybrid/runs",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/items/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/next?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/reports/classes/${classId}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/practice/reports/self",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/progress",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/progress/lesson",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "PUT",
+          "path": "/api/progress/state",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/progress/time",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/activity-system",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/activity-system/lessons/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/activity-system/templates/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/asset-audit",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/library",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/starfall-splashlearn/audio-scripts/${lessonId}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/starfall-splashlearn/catalog",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/starfall-splashlearn/lessons/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/resources/starfall-splashlearn/summary",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/review/attempts",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/review/bank/summary",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/review/due?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/review/saved-phrase",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/review/stats",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/admin/overview",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/assignments/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/assignments/${id}/submissions",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/audit-logs",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/${classId}/assignments",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/${id}/bulk-import",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/${id}/export",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/classes/${id}/members",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/classes/${id}/report",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/content/${id}/rollback",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/content/${id}/versions",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/live-sessions/${id}/participation",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/moderation",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/school/moderation/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/moderation?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/organizations/${id}/export",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations/${id}/licenses",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/organizations/${id}/licenses",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/organizations/${id}/members",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/organizations/${id}/seat-usage",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/parent/dashboard",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/parent/links",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/projects/${projectId}/permissions",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/projects/${projectId}/reviews",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/projects/${projectId}/submit",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/roster-sync",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/school/roster-sync",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/school/submissions/${id}/grade",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/generations/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/studio/coursebook/generations/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/studio/coursebook/generations/${id}/apply",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/studio/coursebook/generations/${id}/live",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/projects/${projectId}/generations",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/studio/coursebook/projects/${projectId}/generations",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/projects/${projectId}/uploads",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/studio/coursebook/projects/${projectId}/uploads/text",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/studio/coursebook/sequence/default",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/${id}/activate",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/${id}/evaluate",
+          "verdict": "ADMIN ONLY",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/chat",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutor/conversations",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/conversations/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/tutor/conversations/${id}",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/conversations?",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutor/quota",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/application",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/availability",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/background",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/identity",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/references",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/application/submit",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/bookings",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings/${bookingId}/join",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/bookings/${bookingId}/room",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/tutoring/conversation/start",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/safeguarding-policy",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/tutors",
+          "verdict": "MATCHED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/tutoring/tutors/${tutorId}/availability?",
+          "verdict": "PARAMETER REQUIRED",
+          "sources": [
+            "frontend/src/api.js"
+          ]
+        }
+      ]
+    },
+    "F": {
+      "title": "Protected Administrator APIs",
+      "declared": 45,
+      "rows": [
+        {
+          "layer": "A",
+          "method": "GET",
+          "path": "/api/admin/stats",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "A",
+          "method": "GET",
+          "path": "/api/admin/users",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "A",
+          "method": "GET",
+          "path": "/api/admin/content",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "A",
+          "method": "GET",
+          "path": "/api/admin/tutors",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "A",
+          "method": "GET",
+          "path": "/api/admin/tutor-applications",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "A",
+          "method": "GET",
+          "path": "/api/admin/certificates",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "A",
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/stats",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/users",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "PATCH",
+          "path": "/api/admin/users/:id",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/content",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/content/:id",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "POST",
+          "path": "/api/admin/content",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/tutors",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "POST",
+          "path": "/api/admin/tutors",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/certificates",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/tutor-applications",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/admin/tutor-applications/:id",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "POST",
+          "path": "/api/admin/tutor-applications/:id/decision",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/evaluate",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "B",
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/activate",
+          "source": "lib/adapters.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/stats",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/users",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "PATCH",
+          "path": "/api/admin/users/:id",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/content",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/content/:id",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "POST",
+          "path": "/api/admin/content",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "PUT",
+          "path": "/api/admin/content/:id",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "DELETE",
+          "path": "/api/admin/content/:id",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/tutors",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "POST",
+          "path": "/api/admin/tutors",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "PUT",
+          "path": "/api/admin/tutors/:id",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "DELETE",
+          "path": "/api/admin/tutors/:id",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/certificates",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/tutor-applications",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/admin/tutor-applications/:id",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "POST",
+          "path": "/api/admin/tutor-applications/:id/decision",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/activate",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "D",
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/:id/evaluate",
+          "source": "lib/apps/admin.ts",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "E",
+          "method": "GET",
+          "path": "/api/tutor/admin/prompts",
+          "source": "frontend/src/api.js",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "E",
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts",
+          "source": "frontend/src/api.js",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "E",
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/${id}/evaluate",
+          "source": "frontend/src/api.js",
+          "verdict": "ADMIN ONLY"
+        },
+        {
+          "layer": "E",
+          "method": "POST",
+          "path": "/api/tutor/admin/prompts/${id}/activate",
+          "source": "frontend/src/api.js",
+          "verdict": "ADMIN ONLY"
+        }
+      ]
+    },
+    "G": {
+      "title": "Backend registered routes",
+      "registered": 243,
+      "declared_by_frontend": 210,
+      "not_declared_anywhere": [
+        {
+          "path": "/api/assessment/checkpoint/:p/score",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Teacher/School checkpoint scoring workflow"
+        },
+        {
+          "path": "/api/assessment/checkpoint/moderation/:p",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Teacher/School checkpoint moderation workflow"
+        },
+        {
+          "path": "/api/assessment/checkpoint/moderation/queue",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Teacher/School checkpoint moderation workflow"
+        },
+        {
+          "path": "/api/auth/oauth/:p",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Third-party sign-in, no provider configured for this panel"
+        },
+        {
+          "path": "/api/billing/trial-checkout",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Personalised $3 Trial \u2014 excluded from this pass"
+        },
+        {
+          "path": "/api/classroom/ice-servers",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "WebRTC provider detail, consumed inside the classroom"
+        },
+        {
+          "path": "/api/compliance/legal-holds",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Data-protection operations, run by the platform not a learner"
+        },
+        {
+          "path": "/api/compliance/legal-holds/:p/release",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Data-protection operations, run by the platform not a learner"
+        },
+        {
+          "path": "/api/compliance/privacy-delete",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Data-protection operations, run by the platform not a learner"
+        },
+        {
+          "path": "/api/compliance/privacy-requests",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Data-protection operations, run by the platform not a learner"
+        },
+        {
+          "path": "/api/compliance/retention-policy",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Data-protection operations, run by the platform not a learner"
+        },
+        {
+          "path": "/api/mfa/disable",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Account security flow, not part of the Access Panel"
+        },
+        {
+          "path": "/api/mfa/enrol",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Account security flow, not part of the Access Panel"
+        },
+        {
+          "path": "/api/mfa/status",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Account security flow, not part of the Access Panel"
+        },
+        {
+          "path": "/api/mfa/verify-enrolment",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Account security flow, not part of the Access Panel"
+        },
+        {
+          "path": "/api/operations/email-outbox",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Platform operations and job queues"
+        },
+        {
+          "path": "/api/operations/jobs",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Platform operations and job queues"
+        },
+        {
+          "path": "/api/operations/jobs/:p/retry",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Platform operations and job queues"
+        },
+        {
+          "path": "/api/operations/provider-syncs",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Platform operations and job queues"
+        },
+        {
+          "path": "/api/partners/simulate-conversion",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Test tooling, deliberately not reachable from a UI"
+        },
+        {
+          "path": "/api/payments/create-one-time-session",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Server-internal checkout step, called by billing"
+        },
+        {
+          "path": "/api/practice/moderation",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Teacher/School practice moderation workflow"
+        },
+        {
+          "path": "/api/practice/moderation/:p",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Teacher/School practice moderation workflow"
+        },
+        {
+          "path": "/api/roster/organizations/:p/connections/:p/exchange",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Roster exchange and sync, beyond the connections card"
+        },
+        {
+          "path": "/api/roster/organizations/:p/sync/:p",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Roster exchange and sync, beyond the connections card"
+        },
+        {
+          "path": "/api/studio/coursebook/generations/:p/export/:p",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Coursebook export, not built in this panel"
+        },
+        {
+          "path": "/api/tutoring/bookings/:p/cancellation-charge",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Booking settlement detail, not built in this panel"
+        },
+        {
+          "path": "/api/tutoring/bookings/:p/summary",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Booking settlement detail, not built in this panel"
+        },
+        {
+          "path": "/api/tutoring/time-requests/:p/accept",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Tutor time-request lifecycle, not built in this panel"
+        },
+        {
+          "path": "/api/tutoring/time-requests/:p/cancel",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Tutor time-request lifecycle, not built in this panel"
+        },
+        {
+          "path": "/api/tutoring/time-requests/:p/checkout",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Tutor time-request lifecycle, not built in this panel"
+        },
+        {
+          "path": "/api/tutoring/time-requests/:p/counter",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Tutor time-request lifecycle, not built in this panel"
+        },
+        {
+          "path": "/api/tutoring/time-requests/:p/decline",
+          "verdict": "INTENTIONALLY NOT EXPOSED",
+          "reason": "Tutor time-request lifecycle, not built in this panel"
+        }
+      ]
+    }
+  },
+  "unmatched_total": 0
+}

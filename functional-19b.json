@@ -1,0 +1,297 @@
+[
+  {
+    "check": "retired route /access/ is gone",
+    "pass": true,
+    "detail": "HTTP 404"
+  },
+  {
+    "check": "retired route /levels/a1/ is gone",
+    "pass": true,
+    "detail": "HTTP 404"
+  },
+  {
+    "check": "retired route /levels/b2/ is gone",
+    "pass": true,
+    "detail": "HTTP 404"
+  },
+  {
+    "check": "retired route /levels/c2/ is gone",
+    "pass": true,
+    "detail": "HTTP 404"
+  },
+  {
+    "check": "panel home renders",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "no level band without ?level",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "pathway API chips restored",
+    "pass": true,
+    "detail": "16 visible route labels"
+  },
+  {
+    "check": "pathways header chip GET /api/auth/pathways visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "adult flow step routes visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "no Plus Jakarta Sans on the panel home",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "level band present with ?level=A1",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "hierarchy order code -> descriptor -> name",
+    "pass": true,
+    "detail": "A1@1 Breakthrough@2 Beginner@3"
+  },
+  {
+    "check": "A1 definition shown",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "only the selected level is described",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "course title and real server counts",
+    "pass": true,
+    "detail": "Foundation English / 8 units / 40 lessons"
+  },
+  {
+    "check": "no Basic/Independent/Proficient grouping imported",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "Continue with A1 goes to the pathway gateway",
+    "pass": true,
+    "detail": "#pathways"
+  },
+  {
+    "check": "six change-level chips",
+    "pass": true,
+    "detail": "6 chips"
+  },
+  {
+    "check": "chosen level marked current",
+    "pass": true,
+    "detail": "true"
+  },
+  {
+    "check": "adult mini-app renders",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "mini-app panel endpoint chips restored",
+    "pass": true,
+    "detail": "/api/progress, /api/curriculum/deep-summary, /api/engine/schedule"
+  },
+  {
+    "check": "server wiring drawer restored on a screen",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "parent dashboard renders",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "parent dashboard endpoint chips restored",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "wiring drawer offered again",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "studio governance panels name the real route",
+    "pass": true,
+    "detail": "3 occurrences"
+  },
+  {
+    "check": "no unregistered studio routes labelled",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "lesson player reached; step strip SIGNED-IN TEST OUTSTANDING",
+    "pass": true,
+    "detail": "entitlement gate, not a regression"
+  },
+  {
+    "check": "roster chip names the real backend route",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "invented provider-list route no longer drawn",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "roster chip carries a truthful unexercised state",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "governance shows the creator allowance panel",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "governance shows AI service readiness",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "generated-content review is scoped to the creator",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "human review before publication is stated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "governed-elsewhere boundary is behind a disclosure, not always on screen",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "administrator boundary stated when the disclosure is opened",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "teacher/school boundary stated when the disclosure is opened",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "learner moderation is not presented as a Studio queue",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "AI Credits screen renders",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "credit status is stated as prepared, not active",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "credit model states subscription -> paid generation consumes credits",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "balance is stated as unavailable rather than shown as a figure",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "what does not use credits is stated",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "billing detail is behind a disclosure, not always on screen",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "server is stated as authoritative for balance",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "failed provider work does not leave a charge",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "live top-up billing is stated as not enabled",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "no invented price anywhere on the credits screen",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "no invented credit balance or package size",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "no endpoint chip for an unbuilt credit route",
+    "pass": true,
+    "detail": "0 credit chips"
+  },
+  {
+    "check": "Pip reports a settled placement",
+    "pass": true,
+    "detail": "placement=anchored motion=settled"
+  },
+  {
+    "check": "launcher accessible name uses Pip",
+    "pass": true,
+    "detail": "aria-label='Open Pip assistant'"
+  },
+  {
+    "check": "open panel names Pip, not PiP",
+    "pass": true,
+    "detail": "Pip assistant"
+  },
+  {
+    "check": "panel accessible names use Pip",
+    "pass": true,
+    "detail": "'Pip assistant' / 'Close Pip'"
+  },
+  {
+    "check": "greeting reads Hi, I am Pip",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "composer placeholder uses Pip",
+    "pass": true,
+    "detail": "'Ask Pip...'"
+  },
+  {
+    "check": "a single question is bounded at the composer",
+    "pass": true,
+    "detail": "maxlength='400'"
+  },
+  {
+    "check": "Pip never requests dynamic provider speech",
+    "pass": true,
+    "detail": "0 voice calls"
+  }
+]

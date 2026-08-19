@@ -1,0 +1,138 @@
+{
+  "passed": 8,
+  "total": 8,
+  "results": [
+    {
+      "name": "expired token -> refresh -> retry returns a PDF Blob",
+      "pass": true,
+      "outcome": {
+        "downloaded": true,
+        "type": "application/pdf",
+        "size": 33,
+        "head": "%PDF-1.4"
+      },
+      "certCalls": 2,
+      "refreshes": 2,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1",
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-2"
+      ]
+    },
+    {
+      "name": "still 401 after refresh -> one retry only, no download",
+      "pass": true,
+      "outcome": {
+        "downloaded": false,
+        "status": 401,
+        "state": "authentication",
+        "message": "unauthorized"
+      },
+      "certCalls": 2,
+      "refreshes": 2,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1",
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-2"
+      ]
+    },
+    {
+      "name": "402 entitlement is not a download",
+      "pass": true,
+      "outcome": {
+        "downloaded": false,
+        "status": 402,
+        "state": "entitlement",
+        "message": "payment required"
+      },
+      "certCalls": 1,
+      "refreshes": 1,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1"
+      ]
+    },
+    {
+      "name": "403 permission is not a download",
+      "pass": true,
+      "outcome": {
+        "downloaded": false,
+        "status": 403,
+        "state": "permission",
+        "message": "forbidden"
+      },
+      "certCalls": 1,
+      "refreshes": 1,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1"
+      ]
+    },
+    {
+      "name": "403 administrator is classified as admin",
+      "pass": true,
+      "outcome": {
+        "downloaded": false,
+        "status": 403,
+        "state": "admin",
+        "message": "Admin access required."
+      },
+      "certCalls": 1,
+      "refreshes": 1,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1"
+      ]
+    },
+    {
+      "name": "422 validation is not a download",
+      "pass": true,
+      "outcome": {
+        "downloaded": false,
+        "status": 422,
+        "state": "unavailable",
+        "message": "invalid_level"
+      },
+      "certCalls": 1,
+      "refreshes": 1,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1"
+      ]
+    },
+    {
+      "name": "500 server error is not a download",
+      "pass": true,
+      "outcome": {
+        "downloaded": false,
+        "status": 500,
+        "state": "unavailable",
+        "message": "server_error"
+      },
+      "certCalls": 1,
+      "refreshes": 1,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1"
+      ]
+    },
+    {
+      "name": "200 with a JSON body is refused, not saved as a PDF",
+      "pass": true,
+      "outcome": {
+        "downloaded": false,
+        "status": 200,
+        "state": "unavailable",
+        "message": "Expected a PDF, received application/json"
+      },
+      "certCalls": 1,
+      "refreshes": 1,
+      "log": [
+        "POST /api/auth/refresh auth=none",
+        "POST /api/certificates/B1 auth=Bearer token-1"
+      ]
+    }
+  ]
+}

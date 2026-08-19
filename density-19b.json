@@ -1,0 +1,32 @@
+[
+  {
+    "surface": "Studio AI governance",
+    "height": 800,
+    "chars": 906,
+    "per_1000px": 1132
+  },
+  {
+    "surface": "Studio AI Credits",
+    "height": 800,
+    "chars": 657,
+    "per_1000px": 821
+  },
+  {
+    "surface": "Access Panel home",
+    "height": 3558,
+    "chars": 3551,
+    "per_1000px": 998
+  },
+  {
+    "surface": "Schools roster",
+    "height": 819,
+    "chars": 1011,
+    "per_1000px": 1234
+  },
+  {
+    "surface": "Administration overview",
+    "height": 800,
+    "chars": 362,
+    "per_1000px": 452
+  }
+]

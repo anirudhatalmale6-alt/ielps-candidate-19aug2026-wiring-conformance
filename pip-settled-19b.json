@@ -1,0 +1,1557 @@
+{
+  "stops": 168,
+  "controls_blocked": 0,
+  "stops_with_horizontal_overflow": 0,
+  "placements": {
+    "anchored": 128,
+    "tucked": 9,
+    "cleared": 31
+  },
+  "failures": [],
+  "tuck_discoverability": [
+    {
+      "viewport": "900x800",
+      "reached_tuck": true,
+      "surface": "Adult mini-app",
+      "scrollY": 900,
+      "controls_covered": 0,
+      "horizontal_overflow": 0,
+      "visible_width": 16,
+      "visible_height": 72,
+      "side": "right",
+      "restored_placement": "anchored",
+      "restored_width": 167,
+      "restored_height": 66,
+      "one_tap_restores": true
+    },
+    {
+      "viewport": "390x780",
+      "reached_tuck": true,
+      "surface": "Adult mini-app",
+      "scrollY": 1000,
+      "controls_covered": 0,
+      "horizontal_overflow": 0,
+      "visible_width": 16,
+      "visible_height": 64,
+      "side": "right",
+      "restored_placement": "anchored",
+      "restored_width": 60,
+      "restored_height": 60,
+      "one_tap_restores": true
+    }
+  ],
+  "detail": [
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 800,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 1000,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 1200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 1400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 1600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 1800,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 2000,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 2200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 2400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 2600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "1280x800",
+      "scrollY": 2758,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "1280x800",
+      "scrollY": 200,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "1280x800",
+      "scrollY": 400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "1280x800",
+      "scrollY": 573,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult dashboard",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "1280x800",
+      "scrollY": 85,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult review",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "1280x800",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "1280x800",
+      "scrollY": 349,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Parents links",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Schools roster",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Schools roster",
+      "viewport": "1280x800",
+      "scrollY": 19,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio credits",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Administration operations",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "1280x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "1280x800",
+      "scrollY": 200,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "1280x800",
+      "scrollY": 400,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "1280x800",
+      "scrollY": 600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "1280x800",
+      "scrollY": 694,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 800,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 1000,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 1200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 1400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 1600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 1800,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 2000,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 2200,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 2400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 2600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 2800,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 3000,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 3200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 3400,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 3600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 3800,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 4000,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 4200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "900x800",
+      "scrollY": 4353,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "900x800",
+      "scrollY": 200,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "900x800",
+      "scrollY": 400,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "900x800",
+      "scrollY": 600,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "900x800",
+      "scrollY": 800,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "900x800",
+      "scrollY": 969,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult dashboard",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult dashboard",
+      "viewport": "900x800",
+      "scrollY": 7,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "900x800",
+      "scrollY": 200,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "900x800",
+      "scrollY": 236,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult review",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "900x800",
+      "scrollY": 200,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "900x800",
+      "scrollY": 400,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "900x800",
+      "scrollY": 600,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "900x800",
+      "scrollY": 744,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Parents links",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Parents links",
+      "viewport": "900x800",
+      "scrollY": 86,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Schools roster",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Schools roster",
+      "viewport": "900x800",
+      "scrollY": 161,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "900x800",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "900x800",
+      "scrollY": 286,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio credits",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio credits",
+      "viewport": "900x800",
+      "scrollY": 106,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Administration operations",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "900x800",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "900x800",
+      "scrollY": 200,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "900x800",
+      "scrollY": 400,
+      "placement": "cleared",
+      "visibleWidth": 52,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "900x800",
+      "scrollY": 600,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "900x800",
+      "scrollY": 694,
+      "placement": "anchored",
+      "visibleWidth": 167,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 400,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 600,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 800,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 1000,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 1200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 1400,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 1600,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 1800,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 2000,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 2200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 2400,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 2600,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 2800,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 3000,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 3200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 3400,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 3600,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 3800,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 4000,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 4200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 4400,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 4600,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 4800,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 5000,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 5200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 5400,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Access Panel home",
+      "viewport": "390x780",
+      "scrollY": 5568,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 400,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 600,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 800,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 1000,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 1200,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 1400,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 1600,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 1800,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult mini-app",
+      "viewport": "390x780",
+      "scrollY": 1843,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult dashboard",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult dashboard",
+      "viewport": "390x780",
+      "scrollY": 76,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "390x780",
+      "scrollY": 400,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult lesson player",
+      "viewport": "390x780",
+      "scrollY": 465,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult review",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Adult review",
+      "viewport": "390x780",
+      "scrollY": 65,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "390x780",
+      "scrollY": 400,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "390x780",
+      "scrollY": 600,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "390x780",
+      "scrollY": 800,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "390x780",
+      "scrollY": 1000,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Junior mini-app",
+      "viewport": "390x780",
+      "scrollY": 1172,
+      "placement": "tucked",
+      "visibleWidth": 16,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Parents links",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Parents links",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Parents links",
+      "viewport": "390x780",
+      "scrollY": 221,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Schools roster",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Schools roster",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Schools roster",
+      "viewport": "390x780",
+      "scrollY": 346,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "390x780",
+      "scrollY": 400,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio governance",
+      "viewport": "390x780",
+      "scrollY": 440,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio credits",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio credits",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Studio credits",
+      "viewport": "390x780",
+      "scrollY": 284,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Administration operations",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "390x780",
+      "scrollY": 0,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "390x780",
+      "scrollY": 200,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "390x780",
+      "scrollY": 400,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "390x780",
+      "scrollY": 600,
+      "placement": "cleared",
+      "visibleWidth": 44,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "390x780",
+      "scrollY": 800,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "390x780",
+      "scrollY": 1000,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    },
+    {
+      "surface": "Reading interactions",
+      "viewport": "390x780",
+      "scrollY": 1183,
+      "placement": "anchored",
+      "visibleWidth": 60,
+      "overflow": 0,
+      "blocked": 0
+    }
+  ]
+}
